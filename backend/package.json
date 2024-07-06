@@ -4,8 +4,9 @@
   "description": "Technical Test Eigen for Backend Position",
   "main": "index.ts",
   "scripts": {
-    "dev": "nodemon index.ts",
+    "prisma": "npx prisma generate && npx prisma db push",
     "seeds": "npx ts-node seeds/seedData.ts",
+    "dev": "nodemon index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Novian Rizky",
