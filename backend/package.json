@@ -1,0 +1,28 @@
+{
+  "name": "backend-test-case",
+  "version": "1.0.0",
+  "description": "Technical Test Eigen for Backend Position",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "nodemon index.ts",
+    "seeds": "npx ts-node seeds/seedData.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Novian Rizky",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.16.1",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.9",
+    "nodemon": "^3.1.4",
+    "prisma": "^5.16.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
